@@ -1,0 +1,31 @@
+#root,
+html,
+body {
+	height: 100vh;
+}
+
+body {
+	margin: 0;
+	background-color: whitesmoke;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+::selection {
+	background-color: #c3cfe2;
+}
+
+.page_title {
+	text-transform: uppercase;
+	background: linear-gradient(to right, #30cfd0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 3vw;
+	margin-bottom: 200px;
+}
